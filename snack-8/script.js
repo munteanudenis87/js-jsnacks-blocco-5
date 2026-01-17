@@ -21,3 +21,9 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+const class3c = students.find(( element ) => {
+  if(element.class === "3C"){
+    return true;
+  }
+});
+console.log(class3c.class);
